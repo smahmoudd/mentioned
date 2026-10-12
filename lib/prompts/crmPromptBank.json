@@ -1,0 +1,37 @@
+[
+  { "id": "crm-1", "category": "general_discovery", "text": "What are the best CRM tools for small businesses?" },
+  { "id": "crm-2", "category": "general_discovery", "text": "Which CRM is easiest to set up for a solo founder?" },
+  { "id": "crm-3", "category": "general_discovery", "text": "Best CRM software for a small sales team in 2026" },
+  { "id": "crm-4", "category": "general_discovery", "text": "What CRM do most startups use?" },
+  { "id": "crm-5", "category": "general_discovery", "text": "What's the most popular CRM among small businesses right now?" },
+
+  { "id": "crm-6", "category": "use_case", "text": "Simple CRM for tracking leads without a big learning curve" },
+  { "id": "crm-7", "category": "use_case", "text": "Best CRM for managing a sales pipeline as a small team" },
+  { "id": "crm-8", "category": "use_case", "text": "Best CRM for e-commerce businesses" },
+  { "id": "crm-9", "category": "use_case", "text": "CRM recommendations for a B2B SaaS company" },
+  { "id": "crm-10", "category": "use_case", "text": "Best CRM for managing leads from multiple channels" },
+
+  { "id": "crm-11", "category": "industry_persona", "text": "What's a good CRM for a real estate agent working solo?" },
+  { "id": "crm-12", "category": "industry_persona", "text": "Best CRM for marketing agencies" },
+  { "id": "crm-13", "category": "industry_persona", "text": "CRM for a consulting business managing long sales cycles" },
+  { "id": "crm-14", "category": "industry_persona", "text": "CRM for a nonprofit organization" },
+  { "id": "crm-15", "category": "industry_persona", "text": "What CRM works well for a remote sales team?" },
+
+  { "id": "crm-16", "category": "features", "text": "CRM software with the best customer support" },
+  { "id": "crm-17", "category": "features", "text": "What CRM integrates well with email marketing tools?" },
+  { "id": "crm-18", "category": "features", "text": "Which CRM has strong workflow and automation features?" },
+  { "id": "crm-19", "category": "features", "text": "What CRM is good for keeping customer information organized?" },
+  { "id": "crm-20", "category": "features", "text": "Which CRM has the best reporting and analytics?" },
+
+  { "id": "crm-21", "category": "pricing_value", "text": "Affordable CRM options for freelancers and consultants" },
+  { "id": "crm-22", "category": "pricing_value", "text": "Which CRM has the best free plan?" },
+  { "id": "crm-23", "category": "pricing_value", "text": "What are the most affordable CRM platforms for small businesses?" },
+  { "id": "crm-24", "category": "pricing_value", "text": "Which CRM gives small teams the most features for the price?" },
+  { "id": "crm-25", "category": "pricing_value", "text": "Are there good CRM options without expensive per-user pricing?" },
+
+  { "id": "crm-26", "category": "switching_scaling", "text": "What CRM should a growing company switch to from spreadsheets?" },
+  { "id": "crm-27", "category": "switching_scaling", "text": "CRM recommendations for a company replacing an outdated system" },
+  { "id": "crm-28", "category": "switching_scaling", "text": "Which CRM platforms scale well as a business grows?" },
+  { "id": "crm-29", "category": "switching_scaling", "text": "When should a small business move from spreadsheets to a CRM?" },
+  { "id": "crm-30", "category": "switching_scaling", "text": "What CRM should a company consider for improving its sales process?" }
+]
