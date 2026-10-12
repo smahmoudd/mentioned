@@ -81,12 +81,19 @@ export async function GET(request: Request) {
       .map(([name, count]) => ({ name, count }));
 
     return Response.json({
-      companyName,
-      visibilityScore,
-      totalResults: rows.length,
-      categoryBreakdown,
-      providerBreakdown,
-      topCompetitors,
+        companyName,
+        visibilityScore,
+        totalResults: rows.length,
+        categoryBreakdown,
+        providerBreakdown,
+        topCompetitors,
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        details: rows.map((r: any) => ({
+            category: r.category,
+            provider: r.provider,
+            mentionType: r.mention_type,
+            context: r.context,
+        })),
     });
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
