@@ -35,7 +35,7 @@ export async function GET(request: Request) {
     const { data, error } = await supabase
       .from('mentions')
       .select('category, provider, mention_type, competitors_mentioned')
-      .eq('company_name', companyName)
+      .ilike('company_name', companyName)
       .order('created_at', { ascending: false });
 
     if (error) {

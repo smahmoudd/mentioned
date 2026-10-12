@@ -133,7 +133,7 @@ async function getCachedResults(companyName: string) {
   const { data, error } = await supabase
     .from('mentions')
     .select('*')
-    .eq('company_name', companyName)
+    .ilike('company_name', companyName)
     .gte('created_at', cutoff)
     .order('created_at', { ascending: false });
 
